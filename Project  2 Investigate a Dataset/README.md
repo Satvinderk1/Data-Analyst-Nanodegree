@@ -16,6 +16,7 @@ I have used following python libraries:
 - pandas
 - NumPy
 - Matplotlib
+- Seaborn
 
 ## Project Goals:
 
