@@ -3,8 +3,6 @@
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
-
 This dataset contains information about Ford Gobike trips from 2017. Ford Gobike is now known as Bay wheels which is a regional public bicycle sharing system in San Francisco Bay Area, California. This dataset contains around 500,000+ trip records. It can be downloaded from [Here](https://s3.amazonaws.com/baywheels-data/2017-fordgobike-tripdata.csv.zip) with the feature information available [Here](https://www.lyft.com/bikes/bay-wheels/system-data).
 
 There are 519,700 rows each representing an individual bike trip with 13 features as follows:
@@ -29,8 +27,6 @@ Finally, I assigned ordered categorical datatype to these columns.
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
-
 In the exploration of the this dataset, I found followings insights:
 
 - The average trip duration is around 10 minutes, and most of the trip durations were between 5 minutes to 20 minutes.
@@ -49,8 +45,6 @@ In the exploration of the this dataset, I found followings insights:
 - The average trip duration for customers is greater than average trip duration of subscribers.
 
 ## Key Insights for Presentation
-
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
 
 For the presentation, I have focused on my feature of interest "trip Duration".
 First of all, I have introduced the distribution of trip durations over the given dataset to observe the average trip duration. Then I have introduced the distribution of different user type, to determine the most regular user types for the Gobike service. Then I have explained the effect of other features like user type and start day of trip on trip duration.
